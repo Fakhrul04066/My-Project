@@ -1,0 +1,1 @@
+{"name":"Local: 2204066","url":"c:\\CODES\\2204066.3.cpp","tests":[{"id":1745731860407,"input":"10\n2 5 5 5 6 6 8 9 9 9  \n5","output":"First occurance at index 1\nLast occurance at index 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\CODES\\2204066.3.cpp","group":"local","local":true}
