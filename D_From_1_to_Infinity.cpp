@@ -9,12 +9,10 @@ int main(){
     while(tc--){
             ll n;
             cin>>n;
-            ll res=0;
-            for(int i=1;i<n;i++){
-                if((n-i)>0){
-                    res++;
-                }
+            ll sum=0;
+            for(ll i=1;i<=n;i++){
+                sum+=i;
             }
-            cout<<res<<endl;
+            cout<<sum<<endl;
     }
 }
