@@ -8,15 +8,13 @@ int main(){
     cin >> tc;
     while(tc--){
             ll m,a,b,c;
-            ll res;
+            ll res1, res2,res3;
             cin>>m>>a>>b>>c;
-            if(m=>a){
-                res+=a;
-                m-=a;
-                if((m-c)>=0){
-                    
-                }
-            }
+            res1= min(a,m);
+            res2= min(b,m);
+            ll left= 2*m - (res1+res2);
+            res3= min(c,left);
+            cout<<res1+res2+res3<<endl;
             
             
     }
