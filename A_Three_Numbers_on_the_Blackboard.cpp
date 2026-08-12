@@ -1,12 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ll long long
-#define endl '\n'
-#define all(x) (x).begin(), (x).end()
+using ll = long long;
 
 void solve()
 {
+    array<ll, 3> v;
+    cin >> v[0] >> v[1] >> v[2];
+
+    sort(v.begin(), v.end());
+
+    ll ans = min(v[2] - v[0], v[1]);
+    cout << ans << '\n';
 }
 
 int main()
@@ -14,8 +19,9 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int t = 1;
+    int t;
     cin >> t;
+
     while (t--)
         solve();
 

@@ -7,6 +7,9 @@ using namespace std;
 
 void solve()
 {
+    int n;
+    cin>>n;
+    for(int)
 }
 
 int main()

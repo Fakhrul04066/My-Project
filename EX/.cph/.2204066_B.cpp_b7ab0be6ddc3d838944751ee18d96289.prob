@@ -1,0 +1,1 @@
+{"name":"Local: 2204066_B","url":"c:\\CODES\\EX\\2204066_B.cpp","tests":[{"id":1760335806620,"input":"Geek\nGesek","output":"1"},{"id":1760335829945,"input":"Cat\nCut","output":"1"},{"id":1760335845081,"input":"Sunday\nSaturday","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\CODES\\EX\\2204066_B.cpp","group":"local","local":true}

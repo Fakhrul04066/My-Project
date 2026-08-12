@@ -1,0 +1,1 @@
+{"name":"Local: 2204066_A","url":"c:\\CODES\\EX\\2204066_A.cpp","tests":[{"id":1760335231285,"input":"6\n3, 32, 4, 12, 5, 2\n9","output":"1"},{"id":1760335408421,"input":"6\n3, 34, 4, 12, 5, 2\n30","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\CODES\\EX\\2204066_A.cpp","group":"local","local":true}

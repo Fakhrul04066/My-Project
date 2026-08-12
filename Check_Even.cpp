@@ -5,8 +5,21 @@ using namespace std;
 #define endl '\n'
 #define all(x) (x).begin(), (x).end()
 
-void solve()
+int solve()
 {
+    int L, R;
+    cin >> L >> R;
+
+    if (L % 2 == 0 || L < R)
+    {
+        cout << "Yes" << endl;
+    }
+    else
+    {
+        cout << "No" << endl;
+    }
+
+    return 0;
 }
 
 int main()
@@ -14,10 +27,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int t = 1;
-    cin >> t;
-    while (t--)
-        solve();
+    solve();
 
     return 0;
 }

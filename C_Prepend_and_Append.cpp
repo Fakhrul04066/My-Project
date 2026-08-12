@@ -7,6 +7,22 @@ using namespace std;
 
 void solve()
 {
+    int n;
+    cin >> n;
+    vector<char>a(n);
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+    }
+    int res=n;
+    for(int i=0;i<n/2;i++){
+        if(a[i]==a[n-i-1]){
+            break;
+        }
+        else{
+            res-=2;
+        }
+    }
+    cout<<res<<endl;
 }
 
 int main()

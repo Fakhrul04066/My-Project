@@ -7,6 +7,18 @@ using namespace std;
 
 void solve()
 {
+    int n ;
+    cin>> n;
+   int a;
+   int b;
+    int pre=0;
+    int ans=0;
+    for(int i=0;i<n;i++){
+        cin>>a>>b;
+        pre+=b-a;
+        ans=max(ans,pre);
+    }    
+    cout<<ans<<endl;
 }
 
 int main()
@@ -15,7 +27,6 @@ int main()
     cin.tie(nullptr);
 
     int t = 1;
-    cin >> t;
     while (t--)
         solve();
 

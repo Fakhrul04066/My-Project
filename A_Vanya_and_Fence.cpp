@@ -7,6 +7,16 @@ using namespace std;
 
 void solve()
 {
+        int a,n;
+        cin>>a>>n;
+        vector<int>v(a);
+        int sum=0;
+        for(int i=0;i<a;i++){
+            cin>>v[i];
+             if(v[i]<=n) sum++;
+            else sum+=2;
+        }
+        cout<<sum<<endl;
 }
 
 int main()
@@ -15,7 +25,6 @@ int main()
     cin.tie(nullptr);
 
     int t = 1;
-    cin >> t;
     while (t--)
         solve();
 
